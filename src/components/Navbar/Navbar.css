@@ -1,0 +1,44 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    max-width: 250px;
+    background-color: #121212;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+    box-sizing: border-box;
+    height: 96%;
+    top: 0px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin: 15px 0;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  
+  .left-button {
+    margin-right: 20px;
+  }
+  
+  .right-buttons {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
