@@ -1,13 +1,12 @@
 import React from 'react';
 import './Main.css';
+import About from './sections/About';
 
 const Main = () => {
     return (
         <div className="main-content">
             <section id="about" style={{ padding: '20px' }}>
-                <h1>About Me</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <About />
             </section>
 
             <section id="projects" style={{ padding: '20px' }}>
