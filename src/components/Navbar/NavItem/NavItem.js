@@ -4,7 +4,7 @@ import './NavItem.css';
 const NavItem = ({ id, title, subtitle, onClick }) => {
     return (
         <div className="nav-item" onClick={onClick}>
-            <img src={`/assets/${id}.png`} alt={title} className="nav-icon" />
+            <img src={`${process.env.PUBLIC_URL}/assets/${id}.png`} alt={title} className="nav-icon" />
             <div>
                 <p className="nav-title">{title}</p>
                 <p className="nav-subtitle">{subtitle}</p>
