@@ -18,7 +18,7 @@ const About = () => {
     
     return (
         <div className="about-container">
-            <div className="heading">
+            <div className="about-heading">
                 <img src={`${process.env.PUBLIC_URL}/assets/aboutsquare.png`} alt="About" className="left-image" />
                 <div className="right-content">
                     <p>Portfolio</p>
