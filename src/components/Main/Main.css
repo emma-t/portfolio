@@ -1,0 +1,23 @@
+.main-content {
+    margin-left: 270px !important;
+    padding: 20px;
+    background-color: #121212;
+    color: white;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.main-content section {
+    /* border to be removed */
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.main-content h1 {
+    font-size: 24px;
+}
+
+.main-content p {
+    margin: 10px;
+}

@@ -1,0 +1,158 @@
+.about-heading {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color: #020202;
+
+}
+
+.left-image {
+    max-height: 200px;
+    width: auto;
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.about-container .right-content p, .right-content h1, .right-content p1 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.button-group a {
+    padding: 10px 20px;
+    min-width: 100px;
+    text-decoration: none;
+}
+
+.inverted {
+    background-color: #1ED760;
+    color: #020202;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 10%;
+}
+
+.inverted:hover {
+    background-color: #52de83;
+    transform: scale(1.03);
+}
+
+.regular {
+    background-color: transparent;
+    color: white;
+    font-weight: 700;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 10%;
+}
+
+.regular:hover {
+    background-color: transparent;
+    transform: scale(1.03);
+}
+
+.about-text p {
+    color: #A7A7A7;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.author .left .numbers{
+    flex-wrap: wrap;
+    margin: 0 !important;
+    padding: 0;
+    color: #A7A7A7;
+    display: flex;
+    justify-content: space-between;
+}
+
+.author .left .numbers p{
+    margin: 0;
+    padding: 0;
+}
+
+.author .right {
+    display: flex;
+    align-items: center;
+    color: #A7A7A7;
+}
+
+.icon {
+    font-size: 85px;
+    color: white;
+    margin-right: 10px;
+}
+
+.clubs {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.clubs .title {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.scrollable-container {
+    display: flex;
+    overflow-x: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 20px;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+
+.scrollable-container::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollable-item {
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+.scrollable-image {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.scrollable-caption {
+    max-width: 200px;
+    font-size: 13px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+
