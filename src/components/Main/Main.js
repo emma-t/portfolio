@@ -23,11 +23,14 @@ const Main = () => {
             <section id="skills" style={{ padding: '20px' }}>
                 <Skills />
             </section>
-
             <section id="resume" style={{ padding: '20px' }}>
-                <h1>About Me</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h1>Resume</h1>
+                <iframe 
+                    src={`${process.env.PUBLIC_URL}/assets/Ethan_Tang.pdf`} 
+                    width="100%" 
+                    height="600px" 
+                    title="Resume"
+                ></iframe>
             </section>
         </div>
     );
