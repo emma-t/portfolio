@@ -3,6 +3,7 @@ import './Main.css';
 import About from './sections/About';
 import Projects from './sections/Projects';
 import Experience from './sections/Experience';
+import Skills from './sections/Skills';
 
 const Main = () => {
     return (
@@ -20,9 +21,7 @@ const Main = () => {
             </section>
 
             <section id="skills" style={{ padding: '20px' }}>
-                <h1>About Me</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <Skills />
             </section>
 
             <section id="resume" style={{ padding: '20px' }}>
